@@ -24,14 +24,17 @@ input {
 
 button {
     padding: 10px;
-    background-color: #4caf50;
     color: white;
     border: none;
     cursor: pointer;
-    margin-bottom: 10px;
 }
 
 button:disabled {
     background-color: #dddddd;
     cursor: not-allowed;
+}
+
+.save-btn {
+    margin-bottom: 10px;
+    background-color: #4caf50;
 }

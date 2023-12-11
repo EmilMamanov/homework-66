@@ -85,7 +85,7 @@ const MealForm: React.FC<MealFormProps> = ({ onAddMeal, mealId, initialMeal }) =
                     <label>Calories:</label>
                     <input type="number" name="calories" value={meal.calories} onChange={handleChange} />
                 </div>
-                <button type="submit" disabled={loading}>
+                <button className="save-btn" type="submit" disabled={loading}>
                     {loading ? <LoaderSpinner /> : 'Save Meal'}
                 </button>
                 <button type="button" onClick={handleCancel}>
