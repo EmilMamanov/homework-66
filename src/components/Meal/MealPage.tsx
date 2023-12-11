@@ -19,7 +19,7 @@ const MealPage: React.FC = () => {
 
     const [showForm, setShowForm] = useState(false);
     const [selectedMealId, setSelectedMealId] = useState<string | null>(null);
-    const [meals, setMeals] = useState<Meal[]>([]); // Состояние для хранения данных о приемах пищи
+    const [meals, setMeals] = useState<Meal[]>([]);
 
     useEffect(() => {
         const fetchMeals = async () => {

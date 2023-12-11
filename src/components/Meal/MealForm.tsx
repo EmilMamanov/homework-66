@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Meal } from "../../types";
 import LoaderSpinner from "../LoaderSpinner/LoaderSpinner";
+import '../../MealForm.css';
 
 interface MealFormProps {
     onAddMeal: () => Promise<void>;
